@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- bagian navigasi -->
+    <nav>
+        <h1>SIPENDUK</h1>
+    </nav>
+
+    <!-- Bagian Sidebar -->
+    <aside>
+        <a href="">Kesehatan</a>
+        <a href="">Keluarga</a>
+        <a href="">Penduduk</a>
+        <a href="../home.php" style="margin-top: 125%;">Log Out</a>
+    </aside>
+
+    <!-- Bagian Isi halaman -->
+    <section>
+        <a> https://digitalent.kominfo.go.id </a>
+        <form action="">
+            <table>
+                <thead>
+                    <h1>Data Kesehatan Penduduk</h1>
+                </thead>
+                <button type="button" id="btn_tambah" onclick="location.href='tambah.html'">
+                    Tambah +
+                </a>
+                
+                <tbody>
+                    <tr style="height: 50px;">
+                        <th>No</th>
+                        <th>Nama</th>
+                        <th>Golongan Darah</th>
+                        <th>Riwayat Penyakit</th>
+                        <th>Status Vaksin</th>
+                        <th>Jenis Vaskin</th>
+                        <th>Bukti</th>
+                        <th>Aksi</th>
+                    </tr>
+                    <tr style="height: auto;">
+                        <td rowspan="3">1</td>
+                        <td>Yusuf Naufal Zuhdi</td>
+                        <td>A</td>
+                        <td>Tidak ada</td>
+                        <td>Sudah Vaksin</td>
+                        <td>Booster</td>
+                        <td>File</td>
+                        <td style="gap: 5px; display: flex; justify-content: center; align-items: center;">
+                            <button type="button"  id="btn_edit" onclick="location.href='edit.html'">Edit</a >
+                            <button type="button" id="btn_delete" onclick="location.href='hapus.html'">Delete</a >
+                            <button type="button" id="btn_detail" onclick="location.href='detail.html'">Detail</a >
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </section>
+
+    <!-- Bagian Footer -->
+    <footer>
+        <p>Copyright & Copy : Yusuf Naufal Zuhdi</p>
+    </footer>
+
+
+</body>
+</html>
